@@ -1,0 +1,113 @@
+
+	body {
+		background:rgb(230, 230, 230);
+		color: rgb(166,31,105);
+		font-family: 'Crimson Text', serif;
+		font-size: 17px;
+	}
+
+	h1, h2 { 
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold ;
+
+ }
+
+	h1 {
+		color: rgb(64,14,50);
+		font-size: 32px;
+	}
+	h2 {
+
+		color: rgb(242,146,29);
+		font-size: 19px;
+		font-weight: lighter;
+			}
+a {
+	text-decoration: none;
+	color: rgb(242,146,29);
+}
+a:hover {
+	color: color: rgb(242,205,92);;
+}
+
+
+.container {
+
+	width: 700px;
+	margin: 40px auto;
+	
+}
+
+@media (max-width: 760px) {
+
+	.container{
+		width: 600;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.container{
+		width: 400px;
+	}
+
+}
+
+.white-card {
+
+	background-color: whitesmoke;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(242,205,92,0.5);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.image-circle {
+	width : 120px;
+	height: 150px;
+	border-radius: 60%;
+
+}
+
+.btn-purpul {
+
+	background-color: rgb(242,205,92) ;
+	color: white;
+	padding: 15px 20px ;
+	border-radius: 5px;
+}
+.btn-purpul:hover {
+
+background-color: rgb(242,146,29);
+color: white;
+}
+
+.list-horizontal {
+
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-horizontal li {
+
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-horizontal i {
+
+	font-size: 40px;
+	color: rgb(242,146,29) ;
+}
+
+.list-horizontal i: hover {
+
+	color: black ;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
